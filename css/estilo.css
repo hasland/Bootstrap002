@@ -1,0 +1,104 @@
+body {
+	padding-top: 0px;
+	background: url('../img/galaxy_01.jpg') no-repeat fixed center center;
+	background-size: cover;
+	
+}
+
+.navbar {
+   background-color: transparent;
+   background: transparent;
+   border-color: transparent;
+}
+
+.navbar li { color: white} 
+
+#menu_lateral {
+	border: solid 1px #4854b2;
+	border-radius: 5%;
+ }
+ 
+ .paragrafo_02 {
+	 margin-top: 1%;
+	 color: white;
+ }
+ 
+.titulo_h2  {
+	background-color: rgba(0, 0, 0, 0.4);
+	color: white;
+	padding: 1%;
+}
+
+.artigo_01 {
+	border: solid 1px black;
+}
+
+.imagem_artigo {
+	width: 100%;
+	height: 200px;
+}
+
+.paragrafo_01 {
+	border: solid 1px rgba (0, 0, 0, 1);
+	background-color: rgba(0, 0, 0, 0.2);
+	color: white;
+}
+ 
+.borda {color:#FFCCAC; text-shadow:#000 1px -1px, #000 -1px 1px, #000 1px 1px, #000 -1px -1px}
+
+#menu_lateral li a{
+	text-align: center;
+	margin: 1%;
+	color: lightblue;
+	font-size: 160%;
+}
+
+#menu_lateral li a:hover{
+	color: white;
+	font-size: 160%;
+	background-color: rgba(89, 60, 232, 1);
+	border-radius: 20%;
+}
+
+#custom-bootstrap-menu.navbar-default .navbar-brand {
+	font-size: 20px;
+    color: rgba(123, 0, 255, 1);
+}
+#custom-bootstrap-menu.navbar-default {
+    font-size: 20px;
+    background-color: rgba(0, 0, 0, 0.00);
+    border-width: 1px;
+    border-radius: 4px;
+}
+#custom-bootstrap-menu.navbar-default .navbar-nav>li>a {
+    color: rgba(255, 255, 255, 1);
+    background-color: rgba(248, 248, 248, 0);
+}
+#custom-bootstrap-menu.navbar-default .navbar-nav>li>a:hover,
+#custom-bootstrap-menu.navbar-default .navbar-nav>li>a:focus {
+    color: rgba(255, 255, 255, 1);
+    background-color: rgba(89, 60, 232, 1);
+	border-radius: 60%;
+	transition: 0.5s
+}
+#custom-bootstrap-menu.navbar-default .navbar-nav>.active>a,
+#custom-bootstrap-menu.navbar-default .navbar-nav>.active>a:hover,
+#custom-bootstrap-menu.navbar-default .navbar-nav>.active>a:focus {
+    color: rgba(196, 0, 255, 1);
+    background-color: rgba(0, 0, 0, 0);
+}
+#custom-bootstrap-menu.navbar-default .navbar-toggle {
+    border-color: white;
+}
+#custom-bootstrap-menu.navbar-default .navbar-toggle:hover,
+#custom-bootstrap-menu.navbar-default .navbar-toggle:focus {
+    background-color: white;
+}
+#custom-bootstrap-menu.navbar-default .navbar-toggle .icon-bar {
+    background-color: grey;
+}
+#custom-bootstrap-menu.navbar-default .navbar-toggle:hover .icon-bar,
+#custom-bootstrap-menu.navbar-default .navbar-toggle:focus .icon-bar {
+    background-color: 	grey;
+}
+

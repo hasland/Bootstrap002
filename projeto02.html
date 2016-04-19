@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+	<head>
+		<meta charset="utf-8">
+		<meta http-equiv="X-UA-Compatible" content="IE=edge">
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+		<!-- Estas 3 meta tags devem obrigatoriamente ser as primeiras na seção head -->
+		<!-- As demais devem vir depois delas -->
+		<title>Projeto 02 com Bootstrap</title>
+		<link href="../bootstrap/css/bootstrap.min.css" rel="stylesheet"> <!-- CSS do Bootstrap -->
+		<link href="../bootstrap/css/estilo.css" rel="stylesheet"><!-- CSS proprio -->
+		<!--<link href="../bootstrap/css/custom.css" rel="stylesheet">-->
+		<!-- HTML5 shim and Respond.js para suporte dos elementos HTML5 e das media queries ao IE8 -->
+		<!-- Atenção: Respond.js não funciona em páginas carregadas com uso do protocolo file:// -->
+		<!--[if lt IE 9]>
+		<script src="https://oss.maxcdn.com/html5shiv/3.7.2/html5shiv.min.js"></script>
+		<script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
+		<![endif]-->
+	</head>
+	<body>
+		<!-- BARRA MENU SUPERIOR: INICIO -->
+		<nav class="navbar navbar-default navbar-fixed-top navbar-right" id="custom-bootstrap-menu">
+			<div class="container">
+					<div class="navbar-header">
+						<button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#barraMenu">
+						  <span class="sr-only">Toggle navigation</span>
+						  <span class="icon-bar"></span>
+						  <span class="icon-bar"></span>
+						  <span class="icon-bar"></span>
+						</button>
+						<a class="navbar-brand" href="#"><span class="glyphicon glyphicon-star" aria-hidden="true" style="font-size: 30px"></span></a>
+					</div>
+			  
+				<div class="collapse navbar-collapse" id="barraMenu">
+					<ul class="nav navbar-nav navbar-right" style="margin-right: 1%">
+					  <li><a href="#">Home <span class="sr-only">(current)</span></a></li>
+					  <li><a href="#">Cadastro</a></li>
+					  <li><a href="#">Sobre</a></li>
+					  <li><a href="#">Contato</a></li>
+					</ul>
+				</div><!-- /.navbar-collapse -->
+			</div><!-- /.container-fluid -->
+		</nav>
+		<!-- BARRA MENU SUPERIOR: FIM -->
+		<div class="container" style="margin-top: 10%;">
+			<div class="row">
+				<div class="col-md-3"> <!--menu direita-->
+					<ul class="nav nav-pills nav-stacked borda" id="menu_lateral">
+						<li><a href="#">Recurso A</a></li>
+						<li><a href="#">Recurso B</a></li>
+						<li><a href="#">Recurso C</a></li>
+						<li><a href="#">Recurso D</a></li>
+					</ul>
+				</div>
+				<div class="col-md-9">
+					<div class="row">
+						<div class="col-md-12 paragrafo_01">
+							<h2 class="titulo_h2">Título 01</h2>
+							<p>Lorem ipsumLorem ipsumLorem ipsumLorem ipsumLorem ipsumLorem ipsumLorem ipsumLorem ipsumLorem ipsumLorem ipsumLorem ipsumLorem ipsumLorem ipsumLorem ipsumLorem ipsumLorem ipsumLorem ipsumLorem ipsumLorem ipsumLorem ipsumLorem ipsumLorem ipsum.</p>
+						</div>
+						<div class="col-md-12 paragrafo_01">
+							<h2 class="titulo_h2">Título 02</h2>
+							<p>Lorem ipsumLorem ipsumLorem ipsumLorem ipsumLorem ipsumLorem ipsumLorem ipsumLorem ipsumLorem ipsumLorem ipsumLorem ipsumLorem ipsumLorem ipsumLorem ipsumLorem ipsumLorem ipsumLorem ipsumLorem ipsumLorem ipsumLorem ipsumLorem ipsumLorem ipsum.</p>
+						</div>
+						<div class="col-md-12 paragrafo_01">
+							<h2 class="titulo_h2">Título 03</h2>
+							<p>Lorem ipsumLorem ipsumLorem ipsumLorem ipsumLorem ipsumLorem ipsumLorem ipsumLorem ipsumLorem ipsumLorem ipsumLorem ipsumLorem ipsumLorem ipsumLorem ipsumLorem ipsumLorem ipsumLorem ipsumLorem ipsumLorem ipsumLorem ipsumLorem ipsumLorem ipsum.</p>
+						</div>
+						<div class="col-md-12 paragrafo_01">
+							<h2 class="titulo_h2">Título 04</h2>
+							<p>Lorem ipsumLorem ipsumLorem ipsumLorem ipsumLorem ipsumLorem ipsumLorem ipsumLorem ipsumLorem ipsumLorem ipsumLorem ipsumLorem ipsumLorem ipsumLorem ipsumLorem ipsumLorem ipsumLorem ipsumLorem ipsumLorem ipsumLorem ipsumLorem ipsumLorem ipsum.</p>
+						</div>
+					</div>
+					<br><br><br><br><br>
+				</div>
+				<div class="col-md-12">
+					<article class="col-md-4 artigo_01">
+						<a href="#"><h2 class="titulo_h2">Article 01</h2>
+						<div class="col-md-12">
+							<img src="img/galaxy_02.jpg" class="img-rounded imagem_artigo">
+							<p class="paragrafo_02">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean at posuere dui. Praesent a semper purus. Proin vehicula nisi nec aliquam semper. Vestibulum congue sem ut est rutrum ullamcorper quis in metus. Praesent tempor, ipsum in viverra dapibus, erat quam tempus quam, id congue ante mi id nibh. </p></a>
+						</div>
+					</article>
+					<article class="col-md-4 artigo_01">
+						<a href="#"><h2 class="titulo_h2">Article 02</h2>
+						<div class="col-md-12">
+							<img src="img/galaxy_03.jpg" class="img-rounded imagem_artigo">
+							<p class="paragrafo_02">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean at posuere dui. Praesent a semper purus. Proin vehicula nisi nec aliquam semper. Vestibulum congue sem ut est rutrum ullamcorper quis in metus. Praesent tempor, ipsum in viverra dapibus, erat quam tempus quam, id congue ante mi id nibh. </p></a>
+						</div>
+					</article>
+					<article class="col-md-4 artigo_01">
+						<a href="#"><h2 class="titulo_h2">Article 03</h2>
+						<div class="col-md-12">
+							<img src="img/galaxy_04.jpg" class="img-rounded imagem_artigo">
+							<p class="paragrafo_02">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean at posuere dui. Praesent a semper purus. Proin vehicula nisi nec aliquam semper. Vestibulum congue sem ut est rutrum ullamcorper quis in metus. Praesent tempor, ipsum in viverra dapibus, erat quam tempus quam, id congue ante mi id nibh. </p></a>
+						</div>
+					</article>
+				</div>
+			</div><br><br><br><br><br><br><br><br><br><br><br><br>
+		</div>
+		<!-- jQuery (caso se use plugins JavaScript do Bootstrap) -->
+
+		<script src="http://code.jquery.com/jquery-1.11.2.min.js" type="text/javascript">
+		</script>
+		<script type="text/javascript"> // fallback para jQuery
+			//<![CDATA[
+			(window.jQuery)||document.write('<script type="text/javascript"
+			src="../bootstrap/js/jquery.min.js"><\/script>');//]]>
+		</script>
+		<!-- Bootstrap -->
+		<script type="text/javascript" src="../bootstrap/js/bootstrap.min.js"></script>
+	</body>
+</html>
